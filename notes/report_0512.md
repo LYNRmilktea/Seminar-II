@@ -1,60 +1,56 @@
 
 ### 日期：2026/05/12
 
-### 講者：Chih-Lin Hu（胡誌麟）教授  
+### 講者：楊勝州 博士
 
-### 題目：群眾感測技術與應用案例
+### 題目：綠色科技與光電元件之發展應用
 
 #### 學號: 11463111
 #### 姓名: 劉柏毅
 
 # 心得
 
-這次演講「群眾感測技術與應用案例」，主要介紹Mobile Crowd Sensing(MCS)以及在智慧城市和交通風險預測，使用者獎勵的應用，這次演講，我了解到群眾感測並不是單純收集資料而已，是利用大量使用者的手機、穿戴式裝置、車載設備，協助系統取得環境、交通、位置等資料，再將資料進行分析與預測。
-
-在應用中，MCS可以結合交通系統與行動使用者所提供的資料，例如車流量、天氣、道路事故、位置等資訊，這些資料有空間與時間上的關聯，如同一區域附近的交通狀況可能互相影響，不同時段也會出現不同的交通模式，要進行交通風險預測，不能只看單一資料，而是需要同時考慮空間與時間的變化。
-
-演講中提到的CarView系統，利用深度學習方法，結合CNN與LSTM來分析交通風險，CNN 適合處理空間上的特徵，例如不同區域之間的交通分布，LSTM 能處理時間序列資料，最後系統把交通風險以網格化的方式呈現，讓不同區域的風險程度可以被視覺化，這對駕駛安全和城市交通管理都有幫助，演講時特別講到在路徑上可以選擇比較安全的路，感覺也是蠻有想法的，畢竟在台灣的道路上三寶真的很多。
-
-這次演講也讓我理解到MCS系統面臨不少問題，因為資料是由使用者提供，所以系統必須考慮資料可靠性、完整性，以及是否有惡意使用者提供錯誤資料來獲取獎勵，使用者在參與感測任務時，也會消耗手機電量、運算資源、網路頻寬，甚至可能產生隱私風險所以如果沒有合適的獎勵機制，使用者可能不願意長期參與。
-
-在獎勵機制的部分，PPT中介紹了 Incentive-G 的設計，這個方法結合了資料品質分析、使用者信譽評估、投票驗證，以及Stackelberg game模型，系統不只是單純給使用者金錢，而是會根據資料品質、過去行為、其他使用者的投票結果等因素，來計算使用者的貢獻與獎勵，這樣的設計可以鼓勵使用者提供更可靠的資料，也能降低惡意使用者對系統造成的影響。
-
-我覺得這場演講最重要的觀念是群眾感測系統的價值是在於如何從大量、複雜且可能不完整的資料中，建立可信任的分析與決策機制，尤其在交通風險預測這類應用中，如果資料品質不好，模型再複雜也可能得到錯誤結果所以，資料品質、使用者信譽、獎勵機制與AI分析方法其實是互相配合的，整體來說，這次演講讓我對MCS在智慧城市中的應用有完整的認識，過去我可能只會把交通預測想成是單純的AI模型問題又或是單純的演算法，但這次演講讓我知道，實際系統還要考慮資料來源、使用者行為、隱私風險、獎勵公平性與惡意資料防範等問題，這些都是讓一個智慧城市系統能夠真正落地的重要因素，最近也看到有些國家的紅綠燈是智能判別的，感覺這個系統也有機會運用在這上面似乎也挺有趣。
+這次演講「綠色科技與光電元件之發展應用」，主要在介紹綠色科技能源以及LED元件，講者用了大部分篇幅再與我們闡述經歷以及方向，推薦我們看黃仁勳傳，以及馬斯克等在講者領域的專家，也推薦我們有空時閱讀科技新報上的文章，
+後來提到能源與再生能源的關係，讓我知道目前常見能源可以分成化石能源與再生能源，化石能源包含石油、煤炭、天然氣等，雖然目前仍被大量使用，但也會造成碳排放與環境污染，再生能源像是太陽能、風力、水力、地熱能與生質能，則是未來能源發展的重要方向，
+其中太陽能因為來源穩定、應用範圍廣，因此成為綠色科技中很重要的一項技術，
+在太陽能電池的部分，介紹了許多不同種類的太陽能電池，例如矽晶圓太陽能電池、非晶系矽太陽能電池、銅銦鎵二硒太陽能電池、染料敏化太陽能電池、化合物 GaAs 太陽能電池、奈米太陽能電池與鈣鈦礦太陽能電池這讓我發現太陽能電池並不是只有一種形式，而是會依照材料、製程、成本與效率的不同，發展出很多不同的技術路線。
+其中鈣鈦礦太陽能特別有講解，因為它是近年來相當受到關注的新型太陽能電池技術，相較於傳統矽晶太陽能電池，鈣鈦礦太陽能電池具有製程成本較低、材料可調性高、吸光能力強，以及未來效率提升潛力大的特點，因此被視為很有發展前景的光電材料之一，不過，它在穩定性、壽命與大面積量產方面仍然需要持續改善，這也讓我了解到新興能源技術從實驗室走向實際應用，仍然需要克服許多材料與製程上的問題，也有提到LED不同顏色的發光原理LED看起來只是生活中常見的燈，但背後其實牽涉到半導體材料、能帶結構與載子復合等物理概念
+演講也提到，市面上的元件通常會有一定的時間就會損壞，例如手機可能過兩年就會變差不好用，也可能是商人為了持續賺錢的方法
+整體來說，這場演講讓我對綠色科技與光電元件一些認識，更多的是關於科技領域的發展，以及資訊攝取的管道。
 
 # Keywords
 
-- Mobile Crowd Sensing
-- MCS
-- Smart City
-- Traffic Risk Prediction
-- Spatio-temporal Data
-- Urban Sensing Data
-- Deep Learning
-- Convolutional Neural Network
-- CNN
-- Long Short-Term Memory
-- LSTM
-- Data Quality
-- Data Reliability
-- User Reputation
-- Incentive Mechanism
-- Reward Mechanism
-- Monetary Reward
-- Reputation Credit
-- Voting Validation
-- Stackelberg Game
-- Nash Equilibrium
-- Game Theory
-- Service Provider
-- Mobile Users
-- CarView
-- Incentive-G
+- Green Technology
+- Optoelectronic Devices
+- Renewable Energy
+- Solar Energy
+- Solar Cell
+- Photovoltaic Cell
+- Silicon Solar Cell
+- Thin-Film Solar Cell
+- Dye-Sensitized Solar Cell
+- GaAs Solar Cell
+- Perovskite Solar Cell
+- Semiconductor
+- Bandgap
+- P-N Junction
+- Light-Emitting Diode
+- LED
+- LED Applications
+- LED Backlight
+- LCD Backlight
+- Energy Saving
+- Low Power Consumption
+- Long Lifetime
+- Low Pollution
+- Green Lighting
+- Display Technology
+- Consumer Electronics
+- Carbon Reduction
 
 # 參考文獻
 
-1. https://orbilu.uni.lu/bitstream/10993/39438/1/comst-preprint.pdf
-2. https://tns.thss.tsinghua.edu.cn/~yangzheng/papers/Zhang-Incentives-COMST2016.pdf
-3. https://www.computer.org/csdl/journal/sc/2023/03/09857647/1FSY443CeGs
-4. https://shameek.cs.wmich.edu/tmc_19.pdf
-5. https://ieeexplore.ieee.org/document/8577032
+1. [https://orbilu.uni.lu/bitstream/10993/39438/1/comst-preprint.pdf](https://technews.tw/)
+2. [https://tns.thss.tsinghua.edu.cn/~yangzheng/papers/Zhang-Incentives-COMST2016.pdf](https://www.sciencedirect.com/science/article/pii/S2352484724001525)
+3. [https://www.computer.org/csdl/journal/sc/2023/03/09857647/1FSY443CeGs](https://www.mdpi.com/2079-6412/12/8/1089)
+4. [https://shameek.cs.wmich.edu/tmc_19.pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC9414585/)
